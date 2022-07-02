@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <script src="script.js"></script>
+  <div class ="container">
+    <div class="origin">
+      <div
+        id="act-1"
+        class="draggable"
+        draggable="true"
+        ondragstart="onDragStart(event);">
+        <img class= "move-icon" src="move.svg" height="22">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies quam vel porta
+      </div>
+      <div
+        id="act-2"
+        class="draggable"
+        draggable="true"
+        ondragstart="onDragStart(event);">
+        <img class= "move-icon" src="move.svg" height="22">
+        Vivamus lacinia in augue nec fringilla. Praesent efficitur ligula vestibulum
+      </div>
+      <div
+        id="act-3"
+        class="draggable"
+        draggable="true"
+        ondragstart="onDragStart(event);">
+        <img class= "move-icon" src="move.svg" height="22">
+      Quisque semper ipsum tortor, ut suscipit justo eleifend non. Nam ac tempor augue
+      </div>
+      <div
+        id="act-4"
+        class="draggable"
+        draggable="true"
+        ondragstart="onDragStart(event);">
+        <img class= "move-icon" src="move.svg" height="22">
+       Integer porttitor arcu molestie, vestibulum massa eu, gravida ipsum. Sed cursus dolor augue
+      </div>
+      <div
+        id="act-5"
+        class="draggable"
+        draggable="true"
+        ondragstart="onDragStart(event);">
+        <img class= "move-icon" src="move.svg" height="22">
+       Sed sit amet faucibus velit. Vivamus rutrum turpis lorem
+    </div>
+    <div class="outer-circle">
+      <div class ="box"
+      ondragover="onDragOver(event);"
+      ondrop="onDrop(event, this);"
+      >
+      </div>
+      <div class ="outer-base">
+      </div>
+        <div class="middle-circle">
+          <div class ="middle-box"
+          ondragover="onDragOver(event);"
+          ondrop="onDrop(event, this);"
+          >
+          </div>
+          <div class="middle-base">
+          </div>
+            <div class="inner-circle">
+                <div class="box"
+                ondragover="onDragOver(event);"
+                ondrop="onDrop(event, this);">
+                </div>
+                <div class="inner-base">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ </body>
+</html>
